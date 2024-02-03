@@ -56,7 +56,7 @@ services:
             PMA_PASSWORD: password
             PMA_PORT: 3306
         ports:
-            - '8080:55432'
+            - '8080:80'
         networks:
             - sail
         depends_on:
